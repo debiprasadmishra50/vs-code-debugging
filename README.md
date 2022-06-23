@@ -28,6 +28,16 @@
 
 ---
 
+## Resources
+
+[VS code editor debugging](https://code.visualstudio.com/docs/editor/debugging)
+
+[Typescript Debugging](https://code.visualstudio.com/docs/typescript/typescript-debugging)
+
+[tsconfig.json docs](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+
+---
+
 ## Explanation of each window:
 
    <img src="./resources/debugger-window.png" alt="debugger window Image" height="600" width="230"/>
