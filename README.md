@@ -12,6 +12,7 @@
 - nest-debug
 
 2. Go to Debugger using `Ctrl + Shift + D` or `⌘ + Shift + D`
+
    <img src="./resources/debugger.png" alt="Debugger Image" height="500" width="300" />
 
 3. Create launch.json file
