@@ -29,13 +29,13 @@
 
 ## Explanation of each window:
 
-   <img src="./resources/debugger-window.png" alt="Launch Selection Image" height="600" width="230"/>
+   <img src="./resources/debugger-window.png" alt="debugger window Image" height="600" width="230" text-align="center"/>
 
 ### 1. Variables
 
     - it contains the local, global and closure variable present in the execution context
 
-   <img src="./resources/variable-window.png" alt="Launch Selection Image" height="230" width="400" />
+   <img src="./resources/variable-window.png" alt="variable window Image" height="230" width="400" />
 
 ### 2. Watch
 
@@ -45,19 +45,19 @@
 
     - Shows the function call stack from named to anonymous function
 
-   <img src="./resources/call-stack-window.png" alt="Launch Selection Image" height="230" width="400" />
+   <img src="./resources/call-stack-window.png" alt="call stack window Image" height="230" width="400" />
 
 ### 4. Loaded Scripts
 
     - Shows the files that are currently in execution
 
-   <img src="./resources/loaded-scripts-window.png" alt="Launch Selection Image" height="230" width="400" />
+   <img src="./resources/loaded-scripts-window.png" alt="loaded script window Image" height="230" width="400" />
 
 ### 5. Breakpoints
 
     - Shows all the breakpoints that you've given in all the files in the workspace
 
-   <img src="./resources/breakpoint-window.png" alt="Launch Selection Image" height="300" width="400" />
+   <img src="./resources/breakpoint-window.png" alt="breakpoint window Image" height="300" width="400" />
 
 ---
 
