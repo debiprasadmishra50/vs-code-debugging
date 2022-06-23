@@ -12,15 +12,16 @@
 - nest-debug
 
 2. Go to Debugger using `Ctrl + Shift + D` or `⌘ + Shift + D`
-   <img src="./resources/debugger.png" alt="Debugger Image" height="500" width="300">
+   <img src="./resources/debugger.png" alt="Debugger Image" height="500" width="300" />
+
 3. Create launch.json file
 
    > It will reside in the workspace directory under `.vscode`folder with name`launch.json`
 
-   <img src="./resources/launch-json-file.png" alt="Launch json Image"  width="500">
+   <img src="./resources/launch-json-file.png" alt="Launch json Image"  width="500" />
 
 4. Put the launch configuration inside the `launch.json` file and in the `debugger` select the configuration
-   <img src="./resources/launch-selection.png" alt="Launch Selection Image" height="200" width="200">
+   <img src="./resources/launch-selection.png" alt="Launch Selection Image" height="200" width="200" />
 
 5. click on the green play button to attach the debugger
 
@@ -28,7 +29,7 @@
 
 ## Explanation of each window:
 
-   <img src="./resources/debugger-window.png" alt="Launch Selection Image" height="600" width="230">
+   <img src="./resources/debugger-window.png" alt="Launch Selection Image" height="600" width="230"/>
 
 ### 1. Variables
 
@@ -44,19 +45,19 @@
 
     - Shows the function call stack from named to anonymous function
 
-   <img src="./resources/call-stack-window.png" alt="Launch Selection Image" height="230" width="400">
+   <img src="./resources/call-stack-window.png" alt="Launch Selection Image" height="230" width="400" />
 
 ### 4. Loaded Scripts
 
     - Shows the files that are currently in execution
 
-   <img src="./resources/loaded-scripts-window.png" alt="Launch Selection Image" height="230" width="400">
+   <img src="./resources/loaded-scripts-window.png" alt="Launch Selection Image" height="230" width="400" />
 
 ### 5. Breakpoints
 
     - Shows all the breakpoints that you've given in all the files in the workspace
 
-   <img src="./resources/breakpoint-window.png" alt="Launch Selection Image" height="300" width="400">
+   <img src="./resources/breakpoint-window.png" alt="Launch Selection Image" height="300" width="400" />
 
 ---
 
