@@ -30,7 +30,7 @@
 
 ## Explanation of each window:
 
-   <img src="./resources/debugger-window.png" alt="debugger window Image" height="600" width="230" text-align="center"/>
+   <img src="./resources/debugger-window.png" alt="debugger window Image" height="600" width="230"/>
 
 ### 1. Variables
 
