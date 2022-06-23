@@ -1,0 +1,59 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "JS-Launch",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/js-debug/index.js",
+      "outFiles": ["${workspaceFolder}/**/*.js"]
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "TS-Launch",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/ts-debug/index.ts",
+      "preLaunchTask": "tsc: build - ts-debug/tsconfig.json",
+      "outFiles": ["${workspaceFolder}/ts-debug/**/*.js"],
+      "cwd": "${workspaceFolder}/ts-debug"
+    },
+    {
+      "name": "Express",
+      "processId": "${command:PickProcess}",
+      "request": "attach",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    },
+    {
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "name": "Nodemon-Express",
+      "program": "${workspaceFolder}/express-debug/app.js",
+      "request": "launch",
+      "restart": true,
+      "runtimeExecutable": "nodemon",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    },
+    {
+      "command": "cd nest-debug && yarn run start:dev",
+      "name": "NEST-Debug-Yarn",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Debug-NEST-Attach",
+      "skipFiles": ["<node_internals>/**", "node_modules/**"],
+      "program": "${workspaceFolder}/nest-debug/src/main.ts",
+      "runtimeArgs": ["--no-lazy", "-r", "ts-node/register", "-r", "tsconfig-paths/register"],
+      "console": "integratedTerminal",
+      "sourceMaps": true,
+      "cwd": "${workspaceFolder}/nest-debug",
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}
