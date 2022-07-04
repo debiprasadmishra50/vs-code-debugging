@@ -47,7 +47,7 @@
       "type": "pwa-node",
       "request": "launch",
       "name": "Debug-NEST-Attach",
-      "skipFiles": ["<node_internals>/**", "node_modules/**"],
+      "skipFiles": ["<node_internals>/**", "${workspaceFolder}/nest-debug/node_modules/**"],
       "program": "${workspaceFolder}/nest-debug/src/main.ts",
       "runtimeArgs": ["--no-lazy", "-r", "ts-node/register", "-r", "tsconfig-paths/register"],
       "console": "integratedTerminal",
